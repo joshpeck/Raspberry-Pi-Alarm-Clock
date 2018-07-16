@@ -1,4 +1,4 @@
-# Raspberry-Pi-Weather-Clock
+# Raspberry-Pi-Alarm-Clock
 This repository includes all of the files to run a self-updating alarm-clock that shows the temperature and weather through the unnecessarily complex combination of Python, Bash, and Java.
 
 INSTRUCTIONS
@@ -22,3 +22,4 @@ ADDITIONAL NOTES
 KNOWN ISSUES
 - When internet connectivity is lost, the temperature, sky, weather, and updated time is lost forever. The "Updated" text alone stays along with the date and time from the system. It is only slightly annoying and should occur rarely. 
 - Changing the weather location may cause incorrect information to be displayed. This is solved by tinkering with the grep/tail/head commands in 'getWeather.sh'
+- This does not have an alarm feature (nor was it intended to have one in the first place, it just sounds better by calling it an alarm clock).
