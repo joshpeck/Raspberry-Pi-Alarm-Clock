@@ -17,6 +17,8 @@ ADDITIONAL NOTES
 - The included .jar file only works with screens the size of 1024x768
 - To change the size would require a change in the source code, which is also included
 - The color changing feature is also removable in the source code included
+- To change the local weather being used, edit the weatherGet.sh file and change the KAPA in tgftp.nws.noaa.gov/weather/current/KAPA.html to a local ICAO Airport code that suits you
 
 KNOWN ISSUES
 - When internet connectivity is lost, the temperature, sky, weather, and updated time is lost forever. The "Updated" text alone stays along with the date and time from the system. It is only slightly annoying and should occur rarely. 
+- Changing the weather location may cause incorrect information to be displayed. This is solved by tinkering with the grep/tail/head commands in 'getWeather.sh'
