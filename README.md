@@ -1,4 +1,4 @@
-# Raspberry-Pi-Alarm-Clock
+# Raspberry-Pi-Weather-Clock
 This repository includes all of the files to run a self-updating alarm-clock that shows the temperature and weather through the unnecessarily complex combination of Python, Bash, and Java.
 
 INSTRUCTIONS
