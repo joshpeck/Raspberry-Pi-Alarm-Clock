@@ -1,6 +1,12 @@
 # Raspberry-Pi-Alarm-Clock
 This repository includes all of the files to run a self-updating alarm-clock that shows the temperature and weather through the unnecessarily complex combination of Python, Bash, and Java.
 
+REQUIRED PARTS
+1. Raspberry Pi (or any other linux-based computer) with a working power supply and sd card
+2. Computer monitor (preferably 1024x768)
+3. Temporary keyboard and mouse (to set it all up)
+4. Working internet connection
+
 INSTRUCTIONS
 1. Create a directory at /home/pi/ titled 'AlarmClock'. The directory should now be located at /home/pi/AlarmClock
 2. Move timingScript.sh and weatherGet.sh into /home/pi/AlarmClock
