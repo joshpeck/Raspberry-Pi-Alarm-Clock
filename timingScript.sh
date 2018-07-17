@@ -1,10 +1,11 @@
 #!/bin/bash
 
-java -jar /home/pi/AlarmClock/AlarmClock.jar
-/home/pi/AlarmClock/weatherGet.sh
+java -jar /home/pi/AlarmClock/AlarmClock.jar;
+/home/pi/AlarmClock/weatherGet.sh;
 sleep 10;
 
-while [ true ]; do
+while [ true ]
+	do
 	minutes=$(date +%M);
 	echo "checking minutes";
 	echo $minutes;
@@ -27,3 +28,5 @@ while [ true ]; do
 	echo "sleeping";
 	sleep 60;
 done;
+
+echo "ERROR: STOPPING TIMING SCRIPT"
