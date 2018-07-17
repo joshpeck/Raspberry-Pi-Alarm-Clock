@@ -23,6 +23,7 @@ while [ true ]; do
 		sleep 10;
 	done;
 	
+	/home/pi/AlarmClock/weatherGet.sh
 	echo "sleeping";
 	sleep 60;
 done;
