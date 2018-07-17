@@ -29,5 +29,6 @@ KNOWN ISSUES
 - When internet connectivity is lost, the temperature, sky, weather, and updated time is lost forever. The "Updated" text alone stays along with the date and time from the system. It is only slightly annoying and should occur rarely. 
 - Changing the weather location may cause incorrect information to be displayed. This is solved by tinkering with the grep/tail/head commands in 'getWeather.sh'
 - This does not have an alarm feature (nor was it intended to have one in the first place, it just sounds better by calling it an alarm clock).
+- When closing the program too fast and then immediately restarting it, the new java app glitches out and will not update the weather properly. To fix, simply close it and allow the command terminal to finish its thing before ending the scripts with "ctl + c" before restarting.
 
 [<3 AlexeyY]
