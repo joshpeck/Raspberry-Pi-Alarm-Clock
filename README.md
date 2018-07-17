@@ -10,7 +10,7 @@ REQUIRED PARTS
 INSTRUCTIONS
 1. Create a directory at /home/pi/ titled 'AlarmClock'. The directory should now be located at /home/pi/AlarmClock
 2. Move timingScript.sh and weatherGet.sh into /home/pi/AlarmClock
-3. Place AlarmClock.jar in /home/pi/AlarmClock/
+3. Move AlarmClock.jar from /AlarmClock/dist/ to /home/pi/AlarmClock/
 4. Extract and then install the font included in alte_haas_grostek.zip
 5. Install XScreenSaver (https://packages.debian.org/stretch/xscreensaver)
 6. On the desktop of the pi, go to 'applications menu' > 'preferences' > 'screensaver' and select "Disable Screen Saver" under "Mode:"
